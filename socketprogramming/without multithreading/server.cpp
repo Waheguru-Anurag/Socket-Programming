@@ -70,7 +70,7 @@ int main(int argc, char const *argv[])
                 exit(EXIT_FAILURE); 
             }
 
-            for(int i=0; i<6; i++)
+            for(int i=0; i<5; i++)
                 if(sock[i]==0){
                     sock[i]=new_socket;
                     break;
